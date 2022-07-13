@@ -13,7 +13,7 @@ nrow(unique(links[,c("FROM", "TO")]))
 
 #148
 
-links <- aggregate(links[,2], links[,-2], sum)
+#links <- aggregate(links[,2], links[,-2], sum)
 
 
 #links_ch <- as.character(links)
